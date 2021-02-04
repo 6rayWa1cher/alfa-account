@@ -1,0 +1,15 @@
+.Container {
+  display: grid;
+  grid-template-columns: 90px auto 90px;
+  grid-template-rows: 20px auto auto;
+}
+
+.Top {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.Content {
+  grid-column: 2;
+  grid-row: 3;
+}
