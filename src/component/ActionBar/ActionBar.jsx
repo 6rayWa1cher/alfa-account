@@ -1,5 +1,5 @@
 import React from 'react';
-import { splitStrategies } from '../config';
+import { splitStrategies } from '@config';
 
 const ActionBar = ({
     transaction,

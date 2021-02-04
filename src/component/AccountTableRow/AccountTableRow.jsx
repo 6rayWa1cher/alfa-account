@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { dateToString } from '../utils';
-import '../style/AccountTableRow.css';
-import EditableCell from './EditableCell';
-import ActionBar from './ActionBar';
+import { dateToString } from '@util';
+import './AccountTableRow.css';
+import EditableCell from '@component/EditableCell';
+import ActionBar from '@component/ActionBar';
 
 const AccountTableRow = ({
     transaction,

@@ -1,6 +1,6 @@
 import React from 'react';
-import AccountTableRow from './AccountTableRow';
-import '../style/AccountTable.css';
+import AccountTableRow from '@component/AccountTableRow';
+import './AccountTable.css';
 
 const AccountTable = ({
     transactions,

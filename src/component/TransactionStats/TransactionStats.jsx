@@ -1,5 +1,5 @@
 import React from 'react';
-import { moneyRound } from '../utils';
+import { moneyRound } from '@util';
 
 const TransactionStats = ({
     transactions

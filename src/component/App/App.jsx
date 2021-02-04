@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import '../style/App.css';
-import AccountTable from './AccountTable';
-import TransactionLoader from './TransactionLoader';
-import TransactionStats from './TransactionStats';
+import './App.css';
+import AccountTable from '@component/AccountTable';
+import TransactionLoader from '@component/TransactionLoader';
+import TransactionStats from '@component/TransactionStats';
 
 let defaultTransactions = [
     {id: 0, store: 'PEREKRESTOK', date: new Date(), total: -850.23, left: 0, right: -850.23,

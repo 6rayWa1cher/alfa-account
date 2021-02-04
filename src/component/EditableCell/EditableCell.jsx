@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import '../style/EditableCell.css';
+import './EditableCell.css';
 
 const EditableCell = ({
     edit,

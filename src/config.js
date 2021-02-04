@@ -1,4 +1,4 @@
-import { moneyRound } from './utils';
+import { moneyRound } from './util';
 
 export const splitStrategies = {
     fullFirst: (total) => [total, 0],

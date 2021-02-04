@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import DateRangePicker from '@wojtekmaj/react-daterange-picker';
-import FileChooser from './FileChooser';
-import { splitTransaction } from '../config';
+import FileChooser from '@component/FileChooser';
+import { splitTransaction } from '@config';
 
-import "../style/TransactionLoader.css";
+import "./TransactionLoader.css";
 
 const processFileContent = (fileText, dateFrom, dateTo) => {
     if (!fileText) {
