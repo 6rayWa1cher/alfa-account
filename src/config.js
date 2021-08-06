@@ -21,12 +21,20 @@ export const splitTransaction = (store, total) => {
         case "APTEKA":
         case "MODUS":
         case "KRASNOE BELOE":
+        case "PEREKRESTOK B":
+        case "BISTRO ARZI 1":
             return splitStrategies.fullSecond(total);
         case "IP LINDIN YU":
         case "HYPE PLACE OL":
+        case "YM ozon":
+        case "STEAMGAMES CO":
             return splitStrategies.fullFirst(total);
         case "HAPPY BURGER":
         case "CHICKEN HOUSE":
+        case "MCDONALDS 245":
+        case "OOO OBED":
+        case "BREAKFAST BAN":
+        case "O ESKIMO":
             return splitStrategies.half(total);
         default:
             return splitStrategies.default(total);
